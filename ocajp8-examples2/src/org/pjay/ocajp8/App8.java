@@ -71,6 +71,16 @@ public class App8 {
             System.out.println("See this output, So right side is not evaluated");
         }
 
+        if(3 > 5 || null == appObj1){
+            System.out.println("See this output, So right side is also evaluated i.e., both sides evaluated");
+        }
+
+        if(3 > 5 || null != appObj1){
+            System.out.println("You might not see this");
+        }else{
+            System.out.println("See this output, So both sides evaluated");
+        }
+
         if(null == appObj1 && 3 > 5){
             System.out.println("You might not see this");
         }else{
