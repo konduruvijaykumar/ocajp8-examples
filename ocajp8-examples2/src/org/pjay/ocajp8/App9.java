@@ -48,6 +48,10 @@ public class App9 {
         x1 = (y1 > 8)?2*y1:3*y1;
         System.out.println("x1 " + x1);
 
+        System.out.println(" >>> " + ((y1 > 12)?8:"abc"));
+        // Compiler error
+        //int var = (y1 > 8)?8:"abc";
+
     }
 
 }
