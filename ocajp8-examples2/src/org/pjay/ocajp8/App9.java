@@ -48,8 +48,6 @@ public class App9 {
         x1 = (y1 > 8)?2*y1:3*y1;
         System.out.println("x1 " + x1);
 
-
-
     }
 
 }
