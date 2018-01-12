@@ -38,6 +38,18 @@ public class App9 {
             num=num+3;//num++
         System.out.println("num " + num);
 
+        int y1 = 10;
+        final int x1;
+        /*if(y1 > 8){
+            x1 = 2*y1;
+        }else{
+            x1 = 3*y1;
+        }*/
+        x1 = (y1 > 8)?2*y1:3*y1;
+        System.out.println("x1 " + x1);
+
+
+
     }
 
 }
