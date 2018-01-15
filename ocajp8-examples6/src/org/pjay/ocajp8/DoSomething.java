@@ -1,8 +1,17 @@
 package org.pjay.ocajp8;
 
+import java.io.IOException;
+
 public class DoSomething {
 
     public static void main(String[] args) {
+/*        try{
+            System.out.println();
+        }catch (StackOverflowError e){
+
+        }catch (RuntimeException e){
+
+        }*/
         new DoSomething().go();
     }
 
