@@ -1,7 +1,5 @@
 package org.pjay.ocajp8;
 
-import java.io.IOException;
-
 public class DoSomething {
 
     public static void main(String[] args) {
