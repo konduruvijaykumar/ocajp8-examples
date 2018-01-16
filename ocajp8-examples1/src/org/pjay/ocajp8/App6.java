@@ -24,6 +24,10 @@ public class App6 {
         System.out.println("result1 " + result1);
         System.out.println("y " + y);
         System.out.println("result2 " + result2);
+
+        boolean b1 = false, b2 = true;
+        System.out.println("!b1 "+!b1);
+        System.out.println("b1 "+b1);
     }
 
 }
