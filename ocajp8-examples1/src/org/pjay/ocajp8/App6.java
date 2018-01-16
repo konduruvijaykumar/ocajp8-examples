@@ -28,6 +28,9 @@ public class App6 {
         boolean b1 = false, b2 = true;
         System.out.println("!b1 "+!b1);
         System.out.println("b1 "+b1);
+
+        int i = 4<<4/2;
+        System.out.println("i " + i);
     }
 
 }
