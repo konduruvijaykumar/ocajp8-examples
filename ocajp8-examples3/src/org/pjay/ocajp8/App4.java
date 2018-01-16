@@ -4,7 +4,7 @@ public class App4 {
 
     public static void main(String[] args) {
         int arr[][] = new int[2][];
-        // Results in NullPointerException as size of major or row is only declared, in the below line when assigning value
+        // Results in NullPointerException as size of major or row is only declared, error while executing the below line when assigning value
         arr[0][0] = 1;
         arr[0][1] = 2;
         arr[0][2] = 3;
