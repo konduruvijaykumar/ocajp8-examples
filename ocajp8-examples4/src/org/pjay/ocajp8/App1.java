@@ -15,6 +15,7 @@ public class App1 {
         short s1 = 1, s2 = 2;
         int sum = app1.calculate(s1, s2);
         System.out.println("sum " + sum);
+        app1.noReturnMethod();
     }
 
     // Priority -- 4
@@ -40,6 +41,11 @@ public class App1 {
     private int calculate(long lng1, long lng2){
         System.out.println("Calculating the sum of two long arguments");
         return (int)(lng1+lng2);
+    }
+
+    private void noReturnMethod(){
+        System.out.println("No Return Method");
+        return;
     }
 
 }
