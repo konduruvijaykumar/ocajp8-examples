@@ -10,6 +10,7 @@ public class App1 {
     // If all above rules in the order does not help in solving, compilation error thrown
     // In here the order of methods are chosen by compiler is depicted with priority - 1 etc.
     // If no method with higher priority than the method present, then that method will be cosen to execute
+    // Overloaded method conflicts are resolved based on this precedence order: most specific types, casting, boxing/unboxing and varargs
     public static void main(String[] args) {
         App1 app1 = new App1();
         short s1 = 1, s2 = 2;
