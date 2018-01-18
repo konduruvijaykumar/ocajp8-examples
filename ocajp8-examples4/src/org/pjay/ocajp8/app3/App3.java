@@ -12,6 +12,7 @@ public class App3 extends App2 {
     public  void print(int y){
         // https://stackoverflow.com/questions/20404977/accessing-a-protected-variable-from-a-subclass-outside-package
         // https://stackoverflow.com/questions/22139513/protected-variables-can-be-accessed-within-child-class-or-child-object
+        // https://stackoverflow.com/questions/28924145/java-protected-field-not-accessible-from-the-subclass
         System.out.println("y " + y);
         App2 app2 = new App2();
         App3 app3 = new App3();
