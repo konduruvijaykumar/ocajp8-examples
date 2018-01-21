@@ -12,6 +12,13 @@ public class App1 {
         System.out.println("al before " + al);
         al.add(1,"three");
         System.out.println("al after " + al);
+
+        ArrayList<String> al2 = new ArrayList<>();
+        al2.add("element1");
+        al2.add("element2");
+        System.out.println("al2 before " + al2);
+        al2.set(1,"element2_new");
+        System.out.println("al2 after " + al2);
     }
 
 }
