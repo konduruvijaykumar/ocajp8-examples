@@ -34,6 +34,17 @@ public class App25 {
                 }
             }
         }
+
+        {
+            byte x = 5;
+            byte y = 10;
+            //double z = x + y;
+            //float z = x + y;
+            //long z = x + y;
+            //int z = x + y;
+            // Compiler error -- if no explicit cast, due to default integer promotion in expression or operator evaluation
+            byte z = (byte) (x + y);
+        }
     }
 
 }
