@@ -1,5 +1,6 @@
 package org.pjay.ocajp8;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class App13 {
@@ -14,6 +15,13 @@ public class App13 {
 
         // Runtime Error: java.lang.IndexOutOfBoundsException: Index: 5, Size: 4
         //birds.add(5,"rjay");
+
+        System.out.println("birds.set(0,\"pjay\") >>> " + birds.set(0,"pjay"));
+
+        ArrayList al1 = new ArrayList();
+        al1.add(1);
+        al1.add(4);
+        System.out.println(al1.toString());
 
     }
 
