@@ -15,7 +15,7 @@ public class App6 {
             x = (ba[ch] = b);
         }
         System.out.println(x+" "+ba[ch]);
-        System.out.println(" >>> " + '\u0000');
+        System.out.println(" >>> " + (int)'\u0000');
     }
 
 }
